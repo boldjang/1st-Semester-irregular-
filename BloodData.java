@@ -8,12 +8,10 @@ class BloodData{
         bloodType = "O";
         rhFactor = "+";
     }
-    
     BloodData(String bt, String rh){
         this.bloodType = bt;
         this.rhFactor = rh;
     }
-    
     public void display(){
         System.out.println( bloodType + rhFactor +" is added to the blood bank.");
     }
@@ -36,11 +34,7 @@ public class RunBLoodData {
         else{
             BloodData bd = new BloodData(btInput,rhInput);
             bd.display();
-        } 
-            
-        
-       
-         
+        }    
         
     }
     
